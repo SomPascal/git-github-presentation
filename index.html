@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git & GitHub Presentation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#ff6b35',
+                        secondary: '#333333'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-secondary antialiased">
+    <!-- Hero Section -->
+    <div class="min-h-screen flex items-center justify-center px-6 relative overflow-hidden">
+        <!-- Background decoration -->
+        <div class="absolute top-0 right-0 w-96 h-96 bg-primary opacity-5 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 w-96 h-96 bg-primary opacity-5 rounded-full blur-3xl"></div>
+        
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <!-- Git icon representation -->
+            <div class="mb-8 flex justify-center">
+                <div class="w-24 h-24 bg-primary rounded-2xl flex items-center justify-center transform hover:rotate-12 transition-transform duration-300">
+                    <svg class="w-14 h-14 text-white" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M21.62 11.11l-8.73-8.73a1.25 1.25 0 0 0-1.78 0L9.67 3.82l2.26 2.26a1.5 1.5 0 0 1 1.9 1.9l2.18 2.18a1.5 1.5 0 1 1-.9.89l-2.03-2.03v5.34a1.5 1.5 0 1 1-1.13-.08V8.89a1.5 1.5 0 0 1-.82-1.97L8.87 4.67 2.38 11.16a1.25 1.25 0 0 0 0 1.77l8.73 8.73a1.25 1.25 0 0 0 1.77 0l8.74-8.73a1.25 1.25 0 0 0 0-1.82z"/>
+                    </svg>
+                </div>
+            </div>
+            
+            <h1 class="text-6xl md:text-7xl font-bold mb-6 text-secondary">
+                Git & GitHub
+            </h1>
+            
+            <p class="text-xl md:text-2xl text-gray-600 mb-12 max-w-2xl mx-auto">
+                Master version control and collaborative development
+            </p>
+            
+            <!-- Authors -->
+            <div class="flex flex-wrap justify-center gap-4 mb-12">
+                <div class="bg-gray-50 px-6 py-3 rounded-full border border-gray-200 hover:border-primary transition-colors">
+                    <span class="text-secondary font-medium">
+                      NDJENGWES Ruben
+                    </span>
+                </div>
+
+                <div class="bg-gray-50 px-6 py-3 rounded-full border border-gray-200 hover:border-primary transition-colors">
+                    <span class="text-secondary font-medium">
+                      Tchoumbia Uriel
+                    </span>
+                </div>
+                <div class="bg-gray-50 px-6 py-3 rounded-full border border-gray-200 hover:border-primary transition-colors">
+                    <span class="text-secondary font-medium">
+                      Joycie Kamgo
+                    </span>
+                </div>
+                <div class="bg-gray-50 px-6 py-3 rounded-full border border-gray-200 hover:border-primary transition-colors">
+                    <span class="text-secondary font-medium">
+                      Neutou Austin
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Features Section -->
+    <div class="py-20 px-6 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-8 bg-white rounded-2xl hover:shadow-lg transition-shadow">
+                    <div class="w-12 h-12 bg-primary bg-opacity-10 rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-secondary">Version Control</h3>
+                    <p class="text-gray-600">Track changes and manage code history efficiently</p>
+                </div>
+                
+                <div class="text-center p-8 bg-white rounded-2xl hover:shadow-lg transition-shadow">
+                    <div class="w-12 h-12 bg-primary bg-opacity-10 rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-secondary">Collaboration</h3>
+                    <p class="text-gray-600">Work together seamlessly with your team</p>
+                </div>
+                
+                <div class="text-center p-8 bg-white rounded-2xl hover:shadow-lg transition-shadow">
+                    <div class="w-12 h-12 bg-primary bg-opacity-10 rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-secondary">Best Practices</h3>
+                    <p class="text-gray-600">Learn industry-standard workflows</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="py-8 px-6 text-center text-gray-500 text-sm">
+        <p>© 2025 Git & GitHub Presentation • NDJENGWES Ruben, Tchoumbia Uriel, Deutou Austin & Joycie Kamgo</p>
+    </footer>
+</body>
+</html>
